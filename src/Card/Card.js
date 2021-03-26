@@ -13,6 +13,11 @@ const Card = ({
   onClick
 }) => {    
 
+  const convertToEmDash = (string) => {
+    const newString = string.replace(/--/g, "—")
+    return newString
+  }
+
   return (
     <div className={isActive ? 'card active' : 'card'} id={id} onClick={ onClick }>
       <div className='thumb-container'>
@@ -31,7 +36,7 @@ const Card = ({
       </div>
       <div className='card-info'>
         <div className='class-info'>
-          <div className='title'>{ title }</div>
+          <div className='title'>{ convertToEmDash(title) }</div>
           <img className='trainer' src={ trainer } alt={`${title} thumbnail`}/>
         </div>
         {!isSeries ?
