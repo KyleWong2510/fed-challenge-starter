@@ -1,3 +1,17 @@
+# CHALLENGE SUBMISSION
+
+### AUTHOR
+
+Kyle Wong
+
+### DEPLOYED SITE:
+
+[This project is deployed to Netlify](https://kylewong-fed-challenge.netlify.app/)
+
+### NOTE:
+
+This page was styled on a 15" monitor at a 1920px width. The 4 column layout will work on this view size and is responsive when shrinking the window.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 # Challenge Instructions
@@ -12,11 +26,12 @@ Your task is to build out a single page section based on the provided designs (i
 
 In addition, we ask that you show off your state management skills by adding select functionality for each of the cards. When clicked, they should reflect the active state pictured in the designs (top left card, with increased box-shadow).
 
- It's okay to adjust any part of the initial project setup to fit your needs and desired workflow. Bonus points for showing off your animation chops!
+It's okay to adjust any part of the initial project setup to fit your needs and desired workflow. Bonus points for showing off your animation chops!
 
 ## How do I submit?
 
 Here's the ideal workflow:
+
 - Fork this repository
 - Make it look amazing
 - Push your version up to a public repository
